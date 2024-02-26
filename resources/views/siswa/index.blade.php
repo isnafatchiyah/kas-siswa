@@ -15,8 +15,8 @@
             <div class="col-md-12">
                 <div class="card border-0 shadow rounded">
                     <div class="card-body">
-                        <a href="{{ route('pembayaran.index') }}" class="btn btn-md btn-success mb-3">PEMBAYARAN</a>
                         <a href="{{ route('siswa.create') }}" class="btn btn-md btn-success mb-3">TAMBAH SISWA</a>
+                        <a href="{{ route('pembayaran.index') }}" class="btn btn-md btn-success mb-3">PEMBAYARAN</a>
                         <table class="table table-bordered">
                             <thead>
                               <tr>

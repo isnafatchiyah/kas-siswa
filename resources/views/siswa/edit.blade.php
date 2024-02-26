@@ -46,9 +46,9 @@
                                  <div class="form-group">
                                     <label for="exampleDropdown" class="font-weight-bold">Kelas</label>
                                     <select name="kelas" class="form-control" id="exampleDropdown">
-                                        <option value="XII - PPLG">XII - PPLG</option>
-                                        <option value="XI - PPLG">XI PPLG</option>
-                                        <option value="X - PPLG">X - PPLG</option>
+                                        <option value="XII - PPLG"{{ old('kelas', $siswa->kelas)== 'XII - PPLG'?'selected' : ''}}>XII - PPLG</option>
+                                        <option value="XI - PPLG"{{ old('kelas', $siswa->kelas)== 'XI - PPLG'? 'selected' : '' }}>XI PPLG</option>
+                                        <option value="X - PPLG"{{ old('kelas', $siswa->kelas)== 'X - PPLG'? 'selected' : '' }}>X - PPLG</option>
                                     </select>
                                 </div>
                             </div>
